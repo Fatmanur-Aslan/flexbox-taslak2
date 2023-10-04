@@ -1,0 +1,45 @@
+h1{
+  background-color: orange;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  height: 30vh;
+  }
+
+ 
+.items-1{
+  background-color:coral;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.items-2{
+  background-color:burlywood;
+  flex-basis: 60%;
+}
+p{
+  text-align: center;
+  margin-top: 100px;
+  }
+
+.items-3{
+  background-color:coral;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.footer{
+  background-color: cornsilk;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width:680px){
+  p{margin: 0;
+  font-size: 14px; }
+
+}
